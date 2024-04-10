@@ -1,2 +1,0 @@
-# ReactPortfolio
- Personal Website
