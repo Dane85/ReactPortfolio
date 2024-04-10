@@ -54,7 +54,7 @@ nav {
   background-color: rgb(60, 56, 54);
   padding: 1em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px 25px;
   height: 60px;
@@ -63,9 +63,11 @@ nav {
 }
 
 .nav-links-home,
-.nav-links-about {
+.nav-links-about,
+.nav-links-services {
   color: aliceblue;
   text-decoration: none;
+  margin: 15px;
 }
 
 .hero {
