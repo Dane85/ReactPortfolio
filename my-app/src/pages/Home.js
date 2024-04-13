@@ -1,9 +1,10 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <main>
-      <section className="hero"></section>
+      <Footer />
     </main>
   );
 }

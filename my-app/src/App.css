@@ -6,87 +6,47 @@ body {
   margin: 0;
 }
 
-.about-container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-main {
-  padding: 57px 27px;
-  background-repeat: no-repeat;
-  background-position: right center;
-  flex: 1 1 auto;
-  background-color: white;
-  color: #2b283a;
-}
-
-.main--title {
-  margin: 0;
-  font-size: 45px;
-  letter-spacing: -0.05em;
-  align-self: center;
-}
-
-.main--facts {
-  font-size: larger;
-  margin-top: 46px;
-  max-width: 400px;
-  align-self: center;
-  font-weight: 500;
-}
-
-.main--facts > li {
-  line-height: 19px;
-  padding-block: 10px;
-}
-
-.main--facts > li::marker {
-  font-size: 1.4rem;
-  color: #61dafb;
-}
-
-h1 {
-  margin: 0;
-}
-
 nav {
-  background-color: rgb(60, 56, 54);
-  padding: 1em;
+  background-color: black;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 25px;
-  height: 60px;
-  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
-  z-index: 1;
+  justify-content: space-around;
 }
 
-.nav-links-home,
-.nav-links-about {
-  color: aliceblue;
+.footer {
+  background-color: black;
+  height: auto;
+  color: white;
+  padding: 20px 20px;
+}
+
+.footer a {
+  color: white;
   text-decoration: none;
 }
 
-.hero {
+.footerCol {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-.hero--photo {
-  max-width: 500px;
-  align-self: center;
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero--header {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 10px;
-  align-self: center;
+.socialIcon {
+  margin: 5px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
 }
 
-.hero--text {
-  margin-top: 0;
-  margin-left: 10px;
-  align-self: center;
+.footerLogo {
+  width: 125px;
+  height: auto;
+}
+
+.year {
+  margin-top: 15px;
 }
