@@ -9,7 +9,26 @@ body {
 nav {
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  position: relative;
+}
+
+nav a {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.navLogo {
+  width: 50px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-content: center;
+}
+
+main {
+  width: 100%;
 }
 
 .footer {
@@ -49,4 +68,12 @@ nav {
 
 .year {
   margin-top: 15px;
+}
+
+.heroMoon {
+  width: 100%;
+}
+
+.container-fluid {
+  padding: 0px !important;
 }

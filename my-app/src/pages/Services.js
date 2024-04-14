@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 
-function About() {
+function Services() {
   return (
     <main>
       <Footer />
@@ -9,4 +9,4 @@ function About() {
   );
 }
 
-export default About;
+export default Services;
