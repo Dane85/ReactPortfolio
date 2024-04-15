@@ -110,6 +110,12 @@ main {
   background-color: #1e293b;
 }
 
+@media (max-width: 767px) {
+  .heroWordsCol {
+    padding-top: 50px;
+  }
+}
+
 .heroWordsCol {
   align-self: center;
   flex-direction: column;
