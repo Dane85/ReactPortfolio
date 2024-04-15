@@ -10,6 +10,7 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import CurrentYear from "./CurrentYear.js";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -34,6 +35,9 @@ function Footer() {
             </a>
             <a href="https://www.facebook.com/" className="socialIcon">
               <FontAwesomeIcon className="socialIcon" icon={faLinkedinIn} />
+            </a>
+            <a href="https://linktr.ee/Dane85" className="socialIcon">
+              <FontAwesomeIcon icon={faLink} />{" "}
             </a>
           </div>
         </Col>

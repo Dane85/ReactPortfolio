@@ -2,8 +2,35 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  overflow-x: hidden;
+}
+
+main {
   margin: 0;
+  background: #1e293b;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem !important;
+}
+
+h2 {
+  font-size: 2.8rem !important;
+}
+
+h3 {
+  font-size: 2.5rem !important;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: white;
 }
 
 nav {
@@ -22,31 +49,36 @@ nav a {
 .navLogo {
   width: 50px;
   position: absolute;
-  left: 0;
-  display: flex;
-  align-content: center;
+  left: 2%;
+  top: 8px;
 }
 
 main {
   width: 100%;
 }
 
+.mainLogo {
+  width: 200px;
+  height: auto;
+}
+
 .footer {
   background-color: black;
   height: auto;
   color: white;
-  padding: 20px 20px;
 }
 
 .footer a {
   color: white;
   text-decoration: none;
+  padding-top: 20px;
 }
 
 .footerCol {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 20px;
 }
 
 .socialIcons {
@@ -62,7 +94,7 @@ main {
 }
 
 .footerLogo {
-  width: 125px;
+  width: 150px;
   height: auto;
 }
 
@@ -70,10 +102,46 @@ main {
   margin-top: 15px;
 }
 
-.heroMoon {
-  width: 100%;
-}
-
 .container-fluid {
   padding: 0px !important;
+}
+
+.heroContainer {
+  background-color: #1e293b;
+}
+
+.heroWordsCol {
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heroWordsCol h1,
+.heroWordsCol h3 {
+  color: white;
+}
+
+.heroLogo {
+  text-align: center;
+  max-width: 60%;
+}
+
+.intro {
+  padding: 15px;
+  text-align: justify;
+}
+
+.marqueeIcon {
+  font-size: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.marqueeContainer {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
