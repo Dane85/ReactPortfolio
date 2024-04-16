@@ -14,14 +14,17 @@ main {
 
 h1 {
   font-size: 3rem !important;
+  color: #ffffff !important;
 }
 
 h2 {
-  font-size: 2.8rem !important;
+  font-size: 2rem !important;
+  color: #ffffff !important;
 }
 
 h3 {
-  font-size: 2.5rem !important;
+  font-size: 1.7rem !important;
+  color: #ffffff !important;
 }
 
 p {
@@ -150,4 +153,29 @@ main {
   background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.serviceCol {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.headerRowService h1,
+.headerRowService p {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.serviceColTop h2,
+.serviceColTop p {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
 }
