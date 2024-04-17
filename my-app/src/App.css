@@ -179,3 +179,11 @@ main {
   text-align: center;
   align-self: center;
 }
+
+.cqmLrb {
+  overflow: hidden !important;
+}
+
+.aboutHeaderRow {
+  text-align: center;
+}

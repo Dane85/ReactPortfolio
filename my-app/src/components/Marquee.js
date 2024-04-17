@@ -10,6 +10,13 @@ import {
   faFigma,
   faGit,
   faWordpress,
+  faSlack,
+  faGoogle,
+  faWindows,
+  faStackOverflow,
+  faLinux,
+  faNode,
+  faElementor,
 } from "@fortawesome/free-brands-svg-icons";
 
 const MarqueeComponent = () => (
@@ -22,7 +29,14 @@ const MarqueeComponent = () => (
     <FontAwesomeIcon className="marqueeIcon" icon={faSquareJs} />
     <FontAwesomeIcon className="marqueeIcon" icon={faFigma} />
     <FontAwesomeIcon className="marqueeIcon" icon={faGit} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faSlack} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faLinux} />
     <FontAwesomeIcon className="marqueeIcon" icon={faWordpress} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faGoogle} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faWindows} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faStackOverflow} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faNode} />
+    <FontAwesomeIcon className="marqueeIcon" icon={faElementor} />
   </Marquee>
 );
 
