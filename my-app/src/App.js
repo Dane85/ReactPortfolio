@@ -5,6 +5,7 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import ErrorPage from "./pages/ErrorPage";
 import logotrans from "./assets/images/logotrans.png";
+import Contacts from "./pages/Contacts";
 
 function App() {
   return (
@@ -22,11 +23,15 @@ function App() {
         <Link className="nav-links-about" to="/about">
           About
         </Link>
+        <Link className="nav-links-about" to="/contacts">
+          Contacts
+        </Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contacts" element={<Contacts />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
