@@ -7,7 +7,7 @@
   background-color: var(--joy-palette-background-surface);
 }
 
-.css-1vmsvbt a {
+a.MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-1sxtccy {
   color: var(--link-color); /* Use the custom property for link color */
 }
 
