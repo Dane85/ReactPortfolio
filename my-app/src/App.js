@@ -1,21 +1,26 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Nav from '../src/components/Nav.js';
-import Home from './pages/Home';
-import Services from './pages/Services';
-import About from './pages/About';
-import Contacts from './pages/Contacts';
-import ErrorPage from './pages/ErrorPage';
-import IconButton from '@mui/joy/IconButton';
-import Menu from '@mui/icons-material/Menu';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Nav from "../src/components/Nav.js";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import About from "./pages/About";
+import Contacts from "./pages/Contacts";
+import ErrorPage from "./pages/ErrorPage";
+import IconButton from "@mui/joy/IconButton";
+import Menu from "@mui/icons-material/Menu";
 import "./App.css";
+import "../src/styles/Styles.scss";
 
 function App() {
   const [open, setOpen] = useState(false);
 
   return (
     <React.Fragment>
-      <IconButton variant="outlined" color="neutral" onClick={() => setOpen(true)}>
+      <IconButton
+        variant="outlined"
+        color="neutral"
+        onClick={() => setOpen(true)}
+      >
         <Menu />
       </IconButton>
       <Router>

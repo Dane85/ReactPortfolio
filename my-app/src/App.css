@@ -15,18 +15,13 @@ button.MuiIconButton-root.MuiIconButton-variantOutlined.MuiIconButton-colorNeutr
   width: 50px !important;
 }
 
-.MuiDrawer-content.css-16k4q1o-JoyDrawer-content {
-  background-color: #1e293b !important;
-}
-
 nav.MuiList-root.MuiList-vertical.MuiList-variantPlain.MuiList-colorNeutral.MuiList-sizeLg.css-17vrhxc-JoyList-root
   a {
   color: white !important;
 }
 
-nav.MuiList-root.MuiList-vertical.MuiList-variantPlain.MuiList-colorNeutral.MuiList-sizeLg.css-17vrhxc-JoyList-root
-  a:hover {
-  background-color: #1e293b !important;
+.MuiDrawer-content.css-16k4q1o-JoyDrawer-content {
+  background: currentColor;
 }
 
 label.MuiTypography-root.MuiTypography-body-md.css-9byktv-JoyTypography-root {
