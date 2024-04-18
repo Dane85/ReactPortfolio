@@ -18,7 +18,6 @@ function Nav({ open, setOpen }) {
           ml: "auto", // Align to the right
           mt: 1,
           mr: 2, // Add margin to the right
-          backgroundColor: "blue", // Add background color
         }}
       >
         <ModalClose id="close-icon" sx={{ position: "initial" }} />
