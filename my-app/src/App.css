@@ -1,189 +1,211 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  overflow-x: hidden;
+	overflow-x: hidden;
+}
+
+div#root {
+	background: black;
+}
+
+button.MuiIconButton-root.MuiIconButton-variantOutlined.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.css-3oglbe-JoyIconButton-root {
+	height: 50px;
+	width: 50px;
+}
+
+.MuiDrawer-content.css-16k4q1o-JoyDrawer-content {
+	background-color: #1e293b;
+}
+
+nav.MuiList-root.MuiList-vertical.MuiList-variantPlain.MuiList-colorNeutral.MuiList-sizeLg.css-17vrhxc-JoyList-root a {
+	color: white;
+}
+
+nav.MuiList-root.MuiList-vertical.MuiList-variantPlain.MuiList-colorNeutral.MuiList-sizeLg.css-17vrhxc-JoyList-root a:hover {
+	background-color: #1e293b;
+}
+
+label.MuiTypography-root.MuiTypography-body-md.css-9byktv-JoyTypography-root {
+	color: #ffffff;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-sizeMd.css-1r2bn3-JoySvgIcon-root {
+	color: #ffffff;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	align-items: end;
 }
 
 main {
-  margin: 0;
-  background: #1e293b;
-  font-size: 16px;
+	margin: 0;
+	background: #1e293b;
+	font-size: 16px;
 }
 
 h1 {
-  font-size: 3rem !important;
-  color: #ffffff !important;
+	font-size: 3rem !important;
+	color: #ffffff !important;
 }
 
 h2 {
-  font-size: 2rem !important;
-  color: #ffffff !important;
+	font-size: 2rem !important;
+	color: #ffffff !important;
 }
 
 h3 {
-  font-size: 1.7rem !important;
-  color: #ffffff !important;
+	font-size: 1.7rem !important;
+	color: #ffffff !important;
 }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.8rem;
-  word-spacing: 5px;
-  letter-spacing: 2px;
-  font-weight: 500;
-  color: white;
-}
-
-nav {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-nav a {
-  margin: 20px;
-  color: white;
-  text-decoration: none;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	word-spacing: 5px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: white;
 }
 
 .navLogo {
-  width: 50px;
-  position: absolute;
-  left: 2%;
-  top: 8px;
+	width: 50px;
+	position: absolute;
+	left: 2%;
+	top: 8px;
 }
 
 main {
-  width: 100%;
+	width: 100%;
 }
 
 .mainLogo {
-  width: 200px;
-  height: auto;
+	width: 200px;
+	height: auto;
 }
 
 .footer {
-  background-color: black;
-  height: auto;
-  color: white;
+	background-color: black;
+	height: auto;
+	color: white;
 }
 
 .footer a {
-  color: white;
-  text-decoration: none;
-  padding-top: 20px;
+	color: white;
+	text-decoration: none;
+	padding-top: 20px;
 }
 
 .footerCol {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px;
 }
 
 .socialIcons {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .socialIcon {
-  margin: 5px;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
+	margin: 5px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
 }
 
 .footerLogo {
-  width: 150px;
-  height: auto;
+	width: 150px;
+	height: auto;
 }
 
 .year {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
 .container-fluid {
-  padding: 0px !important;
+	padding: 0px !important;
 }
 
 .heroContainer {
-  background-color: #1e293b;
+	background-color: #1e293b;
 }
 
 @media (max-width: 767px) {
-  .heroWordsCol {
-    padding-top: 50px;
-  }
+	.heroWordsCol {
+		padding-top: 50px;
+	}
 }
 
 .heroWordsCol {
-  align-self: center;
-  flex-direction: column;
-  text-align: center;
+	align-self: center;
+	flex-direction: column;
+	text-align: center;
 }
 
 .heroWordsCol h1,
 .heroWordsCol h3 {
-  color: white;
+	color: white;
 }
 
 .heroLogo {
-  text-align: center;
-  max-width: 60%;
+	text-align: center;
+	max-width: 60%;
 }
 
 .intro {
-  padding: 15px;
-  text-align: justify;
+	padding: 15px;
+	text-align: justify;
 }
 
 .marqueeIcon {
-  font-size: 100px;
-  margin-left: 60px;
-  margin-right: 60px;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
+	font-size: 100px;
+	margin-left: 60px;
+	margin-right: 60px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .marqueeContainer {
-  background-color: black;
-  padding-top: 10px;
-  padding-bottom: 10px;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .serviceCol {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
 }
 
 .headerRowService h1,
 .headerRowService p {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 50px;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .serviceColTop h2,
 .serviceColTop p {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
+	display: flex;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	align-self: center;
 }
 
 .cqmLrb {
-  overflow: hidden !important;
+	overflow: hidden !important;
 }
 
 .aboutHeaderRow {
-  text-align: center;
+	text-align: center;
 }
