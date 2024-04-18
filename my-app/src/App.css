@@ -1,3 +1,11 @@
+:root {
+  --joy-palette-background-surface: #1e293b; /* Override the background color */
+}
+
+.css-1vmsvbt {
+  background-color: var(--joy-palette-background-surface);
+}
+
 * {
   box-sizing: border-box;
 }
