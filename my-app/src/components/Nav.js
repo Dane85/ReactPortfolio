@@ -5,6 +5,7 @@ import Drawer from "@mui/joy/Drawer";
 import List from "@mui/joy/List";
 import ListItemButton from "@mui/joy/ListItemButton";
 import ModalClose from "@mui/joy/ModalClose";
+import "../App.css";
 
 function Nav({ open, setOpen }) {
   return (
