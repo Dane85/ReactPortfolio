@@ -1,6 +1,6 @@
 :root {
   --joy-palette-background-surface: #1e293b; /* Override the background color */
-  --MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-1sxtccy: white;
+  --link-color: white; /* Define a custom property for link color */
 }
 
 .css-1vmsvbt {
@@ -8,9 +8,7 @@
 }
 
 .css-1vmsvbt a {
-  color: var(
-    ---MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-1sxtccy
-  );
+  color: var(--link-color); /* Use the custom property for link color */
 }
 
 * {
