@@ -29,10 +29,13 @@ function Footer() {
             <a href="https://www.facebook.com/" className="socialIcon">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="https://www.facebook.com/" className="socialIcon">
+            <a href="https://www.instagram.com/bjj4lyf/" className="socialIcon">
               <FontAwesomeIcon className="socialIcon" icon={faInstagram} />
             </a>
-            <a href="https://www.facebook.com/" className="socialIcon">
+            <a
+              href="https://www.linkedin.com/in/dane-w-69a42313a/"
+              className="socialIcon"
+            >
               <FontAwesomeIcon className="socialIcon" icon={faLinkedinIn} />
             </a>
             <a href="https://linktr.ee/Dane85" className="socialIcon">

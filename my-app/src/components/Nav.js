@@ -56,6 +56,13 @@ function Nav({ open, setOpen }) {
         >
           Contacts
         </ListItemButton>
+        <ListItemButton
+          component={Link}
+          to="https://epicexpressions.hbportal.co/app/"
+          onClick={() => setOpen(false)}
+        >
+          Client Portal
+        </ListItemButton>
       </List>
     </Drawer>
   );
