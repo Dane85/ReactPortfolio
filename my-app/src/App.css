@@ -3,22 +3,6 @@
   --link-color: white; /* Define a custom property for link color */
 }
 
-.css-1vmsvbt {
-  background-color: var(--joy-palette-background-surface);
-}
-
-a.MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-1sxtccy {
-  color: var(--link-color); /* Use the custom property for link color */
-}
-
-a.MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-p8cw9t {
-  --Icon-color: var(--link-color);
-}
-
-.css-p8cw9t {
-  --Icon-color: var(--link-color);
-}
-
 * {
   box-sizing: border-box;
 }
@@ -31,26 +15,11 @@ div#root {
   background: black;
 }
 
-button.MuiIconButton-root.MuiIconButton-variantOutlined.MuiIconButton-colorNeutral.MuiIconButton-sizeMd.css-3oglbe-JoyIconButton-root {
-  height: 50px !important;
-  width: 50px !important;
-}
+.css-p8cw9t {
+  --custom-color: white; /* Define a custom property for the color */
 
-nav.MuiList-root.MuiList-vertical.MuiList-variantPlain.MuiList-colorNeutral.MuiList-sizeLg.css-17vrhxc-JoyList-root
-  a {
-  color: white !important;
-}
-
-.MuiDrawer-content.css-16k4q1o-JoyDrawer-content {
-  background: currentColor;
-}
-
-label.MuiTypography-root.MuiTypography-body-md.css-9byktv-JoyTypography-root {
-  color: #ffffff !important;
-}
-
-svg.MuiSvgIcon-root.MuiSvgIcon-sizeMd.css-1r2bn3-JoySvgIcon-root {
-  color: #ffffff !important;
+  /* Override the color to use the custom property */
+  color: var(--custom-color);
 }
 
 main {
