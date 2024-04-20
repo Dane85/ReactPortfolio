@@ -15,11 +15,15 @@ div#root {
   background: black;
 }
 
+.css-1sxtccy {
+  color: #ffffff !important;
+}
+
 .css-p8cw9t {
   --custom-color: white; /* Define a custom property for the color */
 
   /* Override the color to use the custom property */
-  color: var(--custom-color);
+  color: var(--custom-color) !important;
 }
 
 main {
