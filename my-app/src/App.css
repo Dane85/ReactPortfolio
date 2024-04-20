@@ -11,6 +11,10 @@ a.MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-varian
   color: var(--link-color); /* Use the custom property for link color */
 }
 
+a.MuiListItemButton-root.MuiListItemButton-colorNeutral.MuiListItemButton-variantPlain.css-p8cw9t {
+  --Icon-color: var(--link-color);
+}
+
 .css-p8cw9t {
   --Icon-color: var(--link-color);
 }
