@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
-import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./pages/NotFound.js";
 import IconButton from "@mui/joy/IconButton";
 import Menu from "@mui/icons-material/Menu";
 import "./App.css";

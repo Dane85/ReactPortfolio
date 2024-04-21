@@ -26,7 +26,10 @@ function Footer() {
         <Col md={4} className="footerCol">
           <h3>Social Media</h3>
           <div className="socialIcons">
-            <a href="https://www.facebook.com/" className="socialIcon">
+            <a
+              href="https://www.facebook.com/dane.epicexpressions/"
+              className="socialIcon"
+            >
               <FontAwesomeIcon icon={faFacebook} />
             </a>
             <a href="https://www.instagram.com/bjj4lyf/" className="socialIcon">

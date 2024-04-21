@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import AlternateTimeline from "../components/AlternateTimeline.js";
 import BackToTop from "../components/BackToTop.js";
+import FaceBookChatLink from "../components/FaceBookChatLink.js";
 
 export default function About() {
   useEffect(() => {
@@ -34,6 +35,7 @@ export default function About() {
       <Container fluid data-aos="fade-up" data-aos-duration="2000">
         <MarqueeComponent />
       </Container>
+      <FaceBookChatLink />
       <BackToTop />
 
       <Footer />

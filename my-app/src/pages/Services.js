@@ -13,6 +13,7 @@ import Animation2 from "../assets/animations/Animation2.json";
 import Animation3 from "../assets/animations/Animation3.json";
 import Animation4 from "../assets/animations/Animation4.json";
 import BackToTop from "../components/BackToTop.js";
+import FaceBookChatLink from "../components/FaceBookChatLink.js";
 
 export default function Services() {
   useEffect(() => {
@@ -289,6 +290,7 @@ export default function Services() {
       <Container fluid data-aos="fade-up" data-aos-duration="2000">
         <MarqueeComponent />
       </Container>
+      <FaceBookChatLink />
 
       <BackToTop />
 
