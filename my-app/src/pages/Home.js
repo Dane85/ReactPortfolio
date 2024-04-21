@@ -10,6 +10,8 @@ import MarqueeComponent from "../components/Marquee.js";
 // Importing AOS library for animation
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BackToTop from "../components/BackToTop.js";
+import FaceBookChatLink from "../components/FaceBookChatLink.js";
 
 export default function Home() {
   // Initialize AOS library for animations on component mount
@@ -84,6 +86,9 @@ export default function Home() {
         {/* Marquee scrolling component */}
         <MarqueeComponent />
       </Container>
+
+      <FaceBookChatLink />
+      <BackToTop />
 
       {/* Footer */}
       <Footer />

@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import MarqueeComponent from "../components/Marquee";
+import BackToTop from "../components/BackToTop.js";
 
 export default function Contacts() {
   useEffect(() => {
@@ -17,6 +18,8 @@ export default function Contacts() {
       <Container fluid data-aos="fade-up" data-aos-duration="2000">
         <MarqueeComponent />
       </Container>
+      <BackToTop />
+
       <Footer />
     </main>
   );

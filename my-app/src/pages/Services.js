@@ -12,6 +12,7 @@ import Animation1 from "../assets/animations/Animation1.json";
 import Animation2 from "../assets/animations/Animation2.json";
 import Animation3 from "../assets/animations/Animation3.json";
 import Animation4 from "../assets/animations/Animation4.json";
+import BackToTop from "../components/BackToTop.js";
 
 export default function Services() {
   useEffect(() => {
@@ -288,6 +289,9 @@ export default function Services() {
       <Container fluid data-aos="fade-up" data-aos-duration="2000">
         <MarqueeComponent />
       </Container>
+
+      <BackToTop />
+
       <Footer />
     </main>
   );
