@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main>
-      <Container style={{ textAlign: "center" }}>
+      <Container style={{ textAlign: "center", marginTop: "50px" }}>
         <h1>Projects</h1>
       </Container>
       <Container
