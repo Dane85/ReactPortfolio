@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "db.png",
+    "name": "Duty Bound Training Systems",
+    "type": "Wordpress",
+    "imageDirectory": "../images/"
+  },
+  {
+    "id": 2,
+    "image": "sugar.png",
+    "name": "Sugar FX",
+    "type": "Wordpress",
+    "imageDirectory": "../images/"
+  }
+]

@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
+import Projects from "./pages/Projects.js";
 import ErrorPage from "./pages/NotFound.js";
 import IconButton from "@mui/joy/IconButton";
 import Menu from "@mui/icons-material/Menu";
@@ -30,6 +31,8 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/projects" element={<Projects />} />
+
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Router>

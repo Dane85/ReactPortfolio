@@ -58,6 +58,13 @@ function Nav({ open, setOpen }) {
         </ListItemButton>
         <ListItemButton
           component={Link}
+          to="/projects"
+          onClick={() => setOpen(false)}
+        >
+          My Projects
+        </ListItemButton>
+        <ListItemButton
+          component={Link}
           to="https://epicexpressions.hbportal.co/app/"
           onClick={() => setOpen(false)}
         >

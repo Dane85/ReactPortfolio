@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "GLI.png",
+    "name": "Global Leadership Initiatives",
+    "type": "Membership, Wordpress, LMS",
+    "link": "https://globalleader.ca/",
+    "imageDirectory": "../images/"
+  },
+  {
+    "id": 2,
+    "image": "ELM.png",
+    "name": "Elodys Little Melodies",
+    "type": "Wordpress",
+    "link": "https://elodyslittlemelodies.ca/",
+    "imageDirectory": "../images/"
+  },
+  {
+    "id": 3,
+    "image": "LEBE.png",
+    "name": "Leading Edge",
+    "type": "Wordpress",
+    "link": "https://lebengineers.com/",
+    "imageDirectory": "../images/"
+  }
+]

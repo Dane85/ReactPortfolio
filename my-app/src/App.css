@@ -194,3 +194,35 @@ main {
 .aboutHeaderRow {
   text-align: center;
 }
+
+.projectsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projectsWrapper img {
+  width: 350px;
+}
+
+.projectDetails {
+  word-wrap: break-word;
+}
+
+.ComingSoonProjectWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ComingSoonProjectWrapper img {
+  width: 350px;
+}
