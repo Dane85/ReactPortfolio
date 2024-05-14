@@ -54,6 +54,7 @@ p {
   letter-spacing: 2px;
   font-weight: 500;
   color: white;
+  text-align: justify;
 }
 
 .navLogo {
@@ -165,8 +166,11 @@ main {
 .serviceCol {
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-direction: column;
+}
+
+.serviceColTop > p {
+  text-align: justify;
 }
 
 .headerRowService h1,
