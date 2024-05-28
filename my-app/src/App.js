@@ -6,11 +6,11 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Projects from "./pages/Projects.js";
-import ErrorPage from "./pages/NotFound.js";
 import IconButton from "@mui/joy/IconButton";
 import Menu from "@mui/icons-material/Menu";
 import "./App.css";
 import "../src/styles/Styles.scss";
+import NotFound from "./pages/NotFound.js";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -33,7 +33,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/projects" element={<Projects />} />
 
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </React.Fragment>
